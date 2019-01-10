@@ -54,6 +54,14 @@ URxvt.cursorUnderline:      false
 ! Pointer
 URxvt.pointerBlank:         true
 
+! Rebind Copy-Paste
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
+! Disabling ISO 14755 MODE (Ctrl+Shift)
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
 !!Source http://github.com/altercation/solarized
 
 *background: #002b36
